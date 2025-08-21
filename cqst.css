@@ -1,256 +1,191 @@
-body{
-    font-family: Arial, Helvetica, sans-serif;
-}
+<!DOCTYPE html>
+<html lang="en">
 
-#Button{
-    background-color: #de6834   ;
-    border: 0px;
-    height: 28px;
-}
-.head2{
-    height: 25px;
-    width: 25px;color: white;
-    background-color: #de6834;
-    font-weight: bolder;
-     margin-left: 35px;
-     text-align: center;
-}
-.head{
-     color: rgb(39, 37, 37);
-   
-     margin-left: -80px;
-     font-size: 20px;
+<head>
+    <link rel="stylesheet" href="cqst.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Code Quotient</title>
+</head>
+
+<body>
+
+    <Section id="header">
+<div class="head2">cq</div>
+        <div class="head">
+            Code Quotient</div>
+        <div><a href="https://www.youtube.com/">CQ AI Program</a>
+            <a href="https://www.Google.com/">School of Technology</a>
+            <a href="https://www.Facebook.com/">For Universities</a>
+            <a href="https://www.twitter.com/">About Us</a>
+            <button type="button" id="Button" value="Login">Login</button>
+        </div>
+
+
+    </Section>
     
-     font-weight: bolder;
-    
-     
-}
-#header a{
-    color: rgb(39, 37, 37);
-   margin-right: 10px;
-     text-decoration: none;
-     font-size: 18px;
-     margin-top: 60px;
-     padding: 15px;
-     
-}
-#Button:hover{
-    background-color: orangered;
-
-}
-#Button{
-cursor: pointer;
-}
-#header{
- display: flex;
- justify-content: space-between;
- margin-top: 20px;
- 
-}
-.div12{
-    display: flex;
-    justify-content:space-evenly;
-    margin-left: 20px;
-    margin-right: 20px;
-    text-align: justify;
-}
-.div11{
-    font-size: 35px;
-    font-weight: bolder;
-    color: #de6834;
-}
-.div15{
-    font-size: 35px;
-    font-weight: bolder;
-    color: black;
-}
-.div13{
-    font-size: 20px;
-    font-weight: bold;
-        color: darkgray;
-        margin-top: 100px;
-        padding-left: 20px;
-        padding-right: 40px;
-   }
-   .div18 {
+    <section class="disp">
+        <div>
+            <section class="cont">
+                <div id="div1">Building AI <br\>Talent
+                </div>
+                <div id="div2">for the World</div>
+            </section>
+            <p class="para">We invest in India’s talent<br /> potential and integrate them <br/>into the world’s best
+                tech companies. </p>
+            <div class="but"><button type="button" id="button2" value="We Are On a Mission">We Are On a Mission</button>
+            </div>
+        </div>
+        <div class="img     "><img src="images/image copy 3.png"></div>
+    </section>
    
-     font-size: 20px;
-    font-weight: bold;
-        color: darkgray;
-        margin-top: 100px;
-        padding-left: 20px; 
-        padding-right: 20px; 
-    border-radius: 10% ;
-    box-shadow: 0px 0px 3px;
-   }
-  
-        .board{
-            display: flex;
-            column-gap: 40px;
-            margin-left: 40px;
-            margin-right: 40px;
-        }
-.cont{
-    font-size: 60px;
-    padding-top: 80px;
-    padding-left: 80px;
-}
-.div14{
-    font-size: larger;
-    color: black;
-}
-.div16{
-    font-size: 22px;
-    color:#de6834;}
-.vertical-line {
-  border-left: 1px dashed black;
-  height: 350px; 
-  margin: 0 auto;
-margin-top: 100px;}
-#div1{
-    color: #de6834;
-   
-   font-weight: bolder;
-}
-#div2{
-    font-weight: bolder;
-}
-.para{
-    font-size: 25px;
-    padding-left: 80px;
-    padding-top: 10px;
-    color: darkgray;
-}
-#button2{
-    height: 50px;
-    width: 190px;
-    font-size: 16px;
-    background-color: #de6834;
-    border-radius: 5%;
-    border: 1px solid gray;
-    cursor: pointer;
-    color: white;
-   
-}
-#button4{
-    height: 50px;
-    width: 170px;
-    font-size: 16px;
-    background-color: #de6834;
-    border-radius: 5%;
-    border: 1px solid gray;
-    cursor: pointer;
-    color: white;
-   
-}
-#button3{
-    height: 50px;
-    width: 150px;
-    font-size: 16px;
-    background-color: #de6834;
-    border-radius: 5%;
-    border: 1px solid gray;
-    cursor: pointer;
-    color: white;
-   
-}
-#button5{
-    height: 50px;
-    width: 200px;
-    font-size: 16px;
-    background-color: #de6834;
-    border-radius: 5%;
-    border: 1px solid gray;
-    cursor: pointer;
-    color: white;
-   
-}
-.but{
-    margin-left: 80px;
-}
-.img img{
-    margin-top: 100px;
-   height: 450px;
-}
-.disp{
-    display: flex;
-}
-.para2{
-    font-size: 30px;
-    text-align: center;
-    color: darkgray;
-    margin-top: 100px;
-}
-    
-    .img2 img{
-        margin-left: 200px;
-        border-radius: 0%;
-        background-color: white;
-        padding: 0%;
-        height: 400px;
-        width: 600px;
-    }
-    .para3{
-    font-size: 25px;
-    text-align: center;
-    color: black; 
-margin-top: 80px; 
-}
-    footer{
-    align-items: center;
-    background-color: rgb(39, 39, 116);
-    color: gray;
-    margin-bottom: -6px;
-    margin-top: 70px;
-    height: 400px;
-}
-.impimg img{
-    background-color: white;
-    border: white;
-    border-radius: 0%;
-    padding: 10px;
-    height: 60px;
-    width: 90px;
-    margin-left: 45px;
-    margin-right: 40px;
-}
-.impimg{
-    display: grid;
-    grid-template-columns: auto auto auto auto auto;
-}
+    <p class="para2">We are on a mission to make India the talent<br />
+        capital of the world by tapping into the<br />
+        untapped talent potential.</p>
+    <div class="img2"><img src="images/image copy.png"></div>
 
-.copyright{
-    display: grid;
-    grid-template-columns:auto auto auto ;
-    column-gap: 12vh;
-    margin: 5vh 10vh;
-    border-bottom: 2px solid  gray;
-   
-}
+    <div>
+        <p class="para3">CodeQuotient Impact That Makes Us Proud
+            Over the past 10+ years,<br /> we've proudly impacted many lives in our journey of <br />meaningful change
+            and growth.</p>
+    </div>
 
-.copyright h3{
-    color: white;
-    font-size: 1.4rem;
-}
+    <section class="div12">
+        <div class="div13">
+            <div class="div11">150+</div><br />
 
-.copyright ul{
-    list-style: none;
-    margin-left: -6vh;
-}
+            <div class="div14">Partner Companies</div><br /><br />
 
-.copyright ul li a{
-    text-decoration: none;
-    color: gray;
-}
+            Aligned with our mission, running talent development programs to build their talent pool.
+        </div>
+        <div class="vertical-line"></div>
+        <div class="div13">
 
-.copyright ul li a:hover{
-    text-decoration: underline;
-}
-.copyright2{
-    margin-top: 80px;
-}
+            <div class="div11">1000+</div><br />
 
-footer p{
-    text-align: center;
-}
+            <div class="div14">SuperCoders Deployed</div><br /><br />
 
+            Who have trusted us, developed their skills and are now contributing to global tech companies.
+
+
+        </div>
+        <div class="vertical-line"></div>
+        <div class="div13">
+
+            <div class="div11">10+</div><br />
+
+            <div class="div14">Tech Domains</div><br /><br />
+
+            Supporting our partner companies across the range of technologies - AI/ML, Full Stack, Data Science, Cloud
+            Computing, and more.
+        </div>
+        <div class="vertical-line"></div>
+        <div class="div13">
+
+            <div class="div11">600+</div><br />
+
+            <div class="div14">Partner Institutes</div><br /><br />
+
+            Across Tier 2/3 cities, which helps us in tapping the talented students from these cities.
+        </div>
+    </section>
+
+    <div>
+        <p class="para3">From innovative startups to top tech companies,<br />
+            our SuperCoders are writing the code behind their success</p>
+    </div>
+    <div class="impimg">
+        <img src="images/image3.png">
+        <img src="images/image4.png">
+        <img src="images/image5.png">
+        <img src="images/image6.png">
+
+        <img src="images/image3.png">
+        <img src="images/image4.png">
+        <img src="images/image5.png">
+        <img src="images/image6.png">
+        <img src="images/image3.png">
+        <img src="images/image4.png">
+        <img src="images/image5.png">
+        <img src="images/image6.png">
+        <img src="images/image3.png">
+        <img src="images/image4.png">
+        <img src="images/image5.png">
+        <img src="images/image6.png"> <img src="images/image3.png">
+        <img src="images/image4.png">
+        <img src="images/image5.png">
+        <img src="images/image6.png">
+    </div>
+    <div class="board">
+        <div class="div18">
+           <div> <p>
+            <div class="div15"> For Universities</div><br />
+            <div class="div16">Plug into a Future-Ready Campus</div><br />
+
+            Integrate our industry-aligned modules into your curriculum, including in-demand courses with hands-on
+            learning. Equip your students with the skills and experience needed for.<br/><br/>
+ <button type="button" id="button3" value="Know More">Know More</button></div>
+            </p>
+           
+        </div>
+        <div class="div18">
+            <div><p>
+            <div class="div15"> For Students</div><br />
+            <div class="div16">Launch your AI Journey</div><br />
+
+            Join our hands-on AI programs, designed with a focus on real-world projects, expert mentorship, and
+            practical training to prepare you for exciting careers in Artificial Intelligence.
+            </p>
+            <button type="button" id="button4"value="Know More">CQ AI Program</button>
+            <button type="button" id="button5"value="Know More">School Of Technologies</button></div>
+        </div>
+    </div>
+    <footer>
+        <a name="contact">
+            <section class="copyright">
+                <div>
+                    <h3>Our Facilities</h3>
+                    <ul>
+                        <li>Smart Class</li>
+                        <li>Qualified Faculty</li>
+                        <li>Transport</li>
+                        <li>Library</li>
+                        <li>Computer Lab</li>
+                        <li>smart Room</li>
+                        <li>Projects</li>
+                        <li>Sports</li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="aryabalimages/management.pdf">Management Committee</a></li>
+                        <li><a href="arya.html">Courses</a></li>
+                        <li><a href="#prospectus">Online Registeration</a></li>
+                        <li><a href="arya3.html">University</a></li>
+                        <li><a href="fees.html">Fee Structure</a></li>
+                        <li><a href="#home">Back to Top</a></li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h3>Contacts</h3>
+                    <ul>
+                        <li>Code Quotient School Of Technologies</li>
+                        <li>Add: G.T Road, Panipat-132103, Haryana </li>
+                        <li>Call: 0180-2639590</li>
+                        <li>Email: CQST.06@gmail.com</li>
+                    </ul>
+                </div>
+            </section>
+        </a>
+
+        <div class="copyright2">
+            <p>© Copyrights 2025 Code Quotient School Of Technologies All rights reserved. Designed By MEET KUMAR.</p>
+        </div>
+
+    </footer>
+
+</body>
+
+</html>
