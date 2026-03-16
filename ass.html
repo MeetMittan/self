@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Professional Portfolio | Placement Ready</title>
+    <style>
+        /* Pehle wala CSS base same rakha hai, projects ke liye thoda extra style */
+        body { font-family: 'Segoe UI', sans-serif; margin: 0; padding: 0; background-color: #f4f7f6; color: #333; line-height: 1.6; }
+        header { background: linear-gradient(135deg, #2c3e50, #34495e); color: white; padding: 60px 20px; text-align: center; }
+        .container { width: 85%; max-width: 1000px; margin: auto; padding: 20px; }
+        
+        .profile-pic { width: 160px; height: 160px; border-radius: 50%; border: 5px solid #fff; background-color: #eee; margin: 0 auto 20px; display: flex; align-items: center; justify-content: center; overflow: hidden; }
+        .profile-pic img { width: 100%; height: 100%; object-fit: cover; }
+
+        h2 { border-left: 5px solid #e74c3c; padding-left: 15px; color: #2c3e50; margin-top: 30px; }
+        .section { background: white; padding: 30px; margin-bottom: 25px; border-radius: 12px; box-shadow: 0 4px 15px rgba(0,0,0,0.08); }
+
+        .skills-grid { display: flex; flex-wrap: wrap; gap: 12px; }
+        .skill-tag { background: #3498db; color: white; padding: 6px 18px; border-radius: 25px; font-size: 0.9em; font-weight: 600; }
+
+        /* Project Styling */
+        .project-card { border: 1px solid #eee; padding: 20px; border-radius: 10px; margin-bottom: 20px; transition: 0.3s; }
+        .project-card:hover { transform: translateY(-5px); box-shadow: 0 6px 20px rgba(0,0,0,0.1); }
+        .project-card h3 { margin-top: 0; color: #e67e22; }
+        .project-link { display: inline-block; margin-top: 10px; color: #2980b9; text-decoration: none; font-weight: bold; border: 1px solid #2980b9; padding: 5px 15px; border-radius: 5px; }
+        .project-link:hover { background: #2980b9; color: white; }
+
+        footer { text-align: center; padding: 40px; color: #7f8c8d; font-size: 0.9em; }
+    </style>
+</head>
+<body>
+
+<header>
+    <div class="profile-pic">
+        <img src="YOUR_IMAGE_URL" alt="Add Your Photo">
+    </div>
+    <h1>[Your Name]</h1>
+    <p>Expert Developer | HTML • CSS • Python • C++</p>
+</header>
+
+<div class="container">
+    
+    <section class="section">
+        <h2>Technical Expertise</h2>
+        <div class="skills-grid">
+            <div class="skill-tag">HTML5 (Expert)</div>
+            <div class="skill-tag">CSS3 (Expert)</div>
+            <div class="skill-tag">Python (Expert)</div>
+            <div class="skill-tag)C++ (Expert)</div>
+            <div class="skill-tag">Data Structures & Algorithms</div>
+            <div class="skill-tag">Responsive Web Design</div>
+        </div>
+    </section>
+
+    <section class="section">
+        <h2>Featured Projects</h2>
+
+        <div class="project-card">
+            <h3>1. Library Management System (C++)</h3>
+            <p>File handling aur Linked List ka use karke ek robust system banaya hai jo books record aur student database manage karta hai.</p>
+            <a href="https://github.com/YourUsername/Project1" class="project-link" target="_blank">View Project Source →</a>
+        </div>
+
+        <div class="project-card">
+            <h3>2. AI-Based Desktop Assistant (Python)</h3>
+            <p>Python ki `pyttsx3` aur `speech_recognition` libraries ka use karke ek voice-controlled assistant banaya hai jo tasks automate karta hai.</p>
+            <a href="https://github.com/YourUsername/Project2" class="project-link" target="_blank">View Project Source →</a>
+        </div>
+
+        <div class="project-card">
+            <h3>3. E-Commerce UI Dashboard (HTML/CSS)</h3>
+            <p>Ek fully responsive e-commerce admin dashboard jisme advanced CSS Flexbox aur Grid ka use kiya gaya hai.</p>
+            <a href="https://your-live-link.com/project3" class="project-link" target="_blank">Live Demo →</a>
+        </div>
+
+        <div class="project-card">
+            <h3>4. Student Result Management System</h3>
+            <p>Python aur SQL ka use karke backend system jo results calculate karta hai aur report generate karta hai.</p>
+            <a href="https://github.com/YourUsername/Project4" class="project-link" target="_blank">View Project Source →</a>
+        </div>
+    </section>
+
+    <section class="section">
+        <h2>Education</h2>
+        <div class="item">
+            <h3>BCA in Artificial Intelligence</h3>
+            <p>[University Name] | [202X - 202X]</p>
+        </div>
+    </section>
+
+</div>
+
+<footer>
+    <p>Contact: meet.mittan.8888@email.com | GitHub: @meet kumar</p>
+    <p>&copy; 2026 Portfolio. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
